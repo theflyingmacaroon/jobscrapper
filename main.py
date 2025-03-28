@@ -1,5 +1,4 @@
-from linkedin_scraper import scrape_linkedin_jobs, create_env_file
-
+from scrapper import scrape_linkedin_jobs, create_env_file
 
 def main():
     if create_env_file():
